@@ -56,7 +56,7 @@ function SendWebhook(username, message){
         "content": message
     };
 
-    const req = Request.create("https://discord.com/api/webhooks/1322953387666440192/q8WYHH2Lk8jRRiH4Nx09nU-v9o6GuUZOC15Vdp4qvaLNLUb8WnowwfGODkIcp90s4OPS")
+    const req = Request.create("web hook here")
     req.addHeader('Content-Type', 'application/json')
     req.addHeader('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
     const response = req.post(JSON.stringify(data))
